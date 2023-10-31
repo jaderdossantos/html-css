@@ -1,0 +1,134 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "Droid";
+    src: url("fontes/idroid.otf") format("opentype");
+    
+}
+
+body {
+    background-color: #84E1AD;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.336);
+}
+
+p {
+font-family: Arial, Helvetica, sans-serif;
+text-align: justify;
+text-indent: 30px;
+
+}
+
+header {
+   font-family: Arial, Helvetica, sans-serif;
+   background-image: linear-gradient(to top,#053E1E, #218C50);
+   color: white;
+   text-align: center;
+   padding: 1px;
+}
+
+
+nav { 
+    text-align: left;
+}
+
+nav > a {
+    font-size: 1em;
+    color: #91D7B0;
+    text-decoration: none;
+    margin: 5px
+}
+
+.hover:hover {
+    box-sizing: 10px 10px;
+    background-color: #39cc7b54;
+    border-radius: 5px;
+}
+
+main {
+    background-color: white;
+    padding: 5px;
+    margin: 0px 200px;
+    border: auto;
+    text-align: justify;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.336);
+    border-radius: 0px 0px 10px 10px;
+}
+
+#titulo {
+    font-family: "Droid";
+    color: #1B5C38;
+}
+
+.subtitulo {
+    background-image: linear-gradient(to right,#0fa14e77, #218c4f09 );
+    color: #1A5C38;
+    font-family: "Droid";
+} 
+
+.fundo{
+    background-color: #39cc7b38;
+    color: #1A5C38;
+    text-decoration: none;
+    font-weight: bold;
+}
+.fundo:hover {
+    text-decoration: underline;
+}
+
+.fundo::after {
+    content:"🔗" ;
+}
+
+.foto {
+    text-align: center;
+}
+
+.video {
+    border: 20px solid #053E1E ;
+    text-align: center;
+}
+
+section {
+    background-color:#81E2AB ;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.336);
+    margin: 10px;
+}
+
+
+#extra {
+    font-size: 1em;
+    background-color:#175C34 ;
+    color: white;
+    border-radius: 10px 10px 0px 0px ;
+    padding: 15px; 
+}
+li{
+    text-decoration: underline dotted;
+}
+li::before {
+content: "✔";
+}
+
+.negrito {
+    color: #053E1E;
+    font-weight: bold;
+}
+
+footer {
+background-color: #032814;
+color: white;
+padding: 1px;
+margin-top: 10px;
+margin-left: 0px;
+margin-right: 0px;
+}
+
+footer > p {
+    text-align: center;
+}
+
+span {
+    font-weight: bolder;
+}
