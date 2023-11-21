@@ -1,0 +1,25 @@
+@charset "UTF-8";
+:root {
+    --fonte0:arial, helvetica, sans-serif;
+
+}
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    padding: 80px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    font-family: var(--fonte0);
+    font-size: 7em;
+
+}
